@@ -1,0 +1,35 @@
+.navbar_div_container {
+    display: flex;
+    justify-content: center;
+    background-color: #282c34;
+    padding: 10px;
+  }
+  
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .navbar_ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar_li {
+    color: white;
+    margin: 0 15px;
+  }
+  
+  .navbar_ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar_ul a:hover {
+    color: red;
+    text-decoration: underline;
+  }
